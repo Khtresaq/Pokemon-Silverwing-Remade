@@ -374,7 +374,7 @@ mob
 
 				for(var/mob/m in world)
 					if(m.key == "Bugandbees")
-						m.icon = 'beer.dmi'
+						m.icon = 'Icons/beer.dmi'
 						m.icon_state = "sm"
 
 						new /obj/strawberry_milkshake (m.loc)

@@ -33,25 +33,25 @@ mob
 
 				switch(input("Which Pokemon do you wish to be?","Pokemon") in list("Chikorita", "Bulbasaur", "Treecko", "Turtwig"))
 					if("Chikorita")
-						src.icon = 'chikorita.dmi'
+						src.icon = 'Icons/Pokemon/chikorita.dmi'
 						src.icon_state = "chik"
 						src.loc = locate(1,1,1)
 						world << "\green <i> [src.key]([src.name]) has logged in!"
 
 					if("Bulbasaur")
-						src.icon = 'bulbasaur.dmi'
+						src.icon = 'Icons/Pokemon/bulbasaur.dmi'
 						src.icon_state = "bulb"
 						src.loc = locate(1,1,1)
 						world << "\green <i> [src.key]([src.name]) has logged in!"
 
 					if("Treecko")
-						src.icon = 'treecko.dmi'
+						src.icon = 'Icons/Pokemon/treecko.dmi'
 						src.icon_state = "tree"
 						src.loc = locate(1,1,1)
 						world << "\green <i> [src.key]([src.name]) has logged in!"
 
 					if("Turtwig")
-						src.icon = 'turtwig.dmi'
+						src.icon = 'Icons/Pokemon/turtwig.dmi'
 						src.icon_state = "turt"
 						src.loc = locate(1,1,1)
 						world << "\green <i> [src.key]([src.name]) has logged in!"

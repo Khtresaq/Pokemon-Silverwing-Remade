@@ -42,7 +42,7 @@ mob
 				return
 
 	training_dummy
-		icon = 'pikachu.dmi'
+		icon = 'Icons/Pokemon/pikachu.dmi'
 		icon_state = "Pikachu"
 		name = "Training Dummy"
 

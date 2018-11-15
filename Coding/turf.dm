@@ -1,41 +1,41 @@
 turf //all the turf declarations
 	grass
 		name = "Grass"
-		icon = 'Pokemon Hearts Icons.dmi'
+		icon = 'Icons/Pokemon Hearts Icons.dmi'
 		icon_state = "grass"
 
 	s_water
 		name = "Shallow Water"
-		icon = 'Pokemon Hearts Icons.dmi'
+		icon = 'Icons/Pokemon Hearts Icons.dmi'
 		icon_state = "s_water"
 
 	m_water
 		name = "Water"
-		icon = 'Pokemon Hearts Icons.dmi'
+		icon = 'Icons/Pokemon Hearts Icons.dmi'
 		icon_state = "m_water"
 		density = 1
 
 	d_water
 		name = "Deep water"
-		icon = 'Pokemon Hearts Icons.dmi'
+		icon = 'Icons/Pokemon Hearts Icons.dmi'
 		icon_state = "d_water"
 		density = 1
 
 	red_blue_striped_wall
 		name = "Red and Blue Striped Wall"
-		icon = 'Pokemon Hearts Icons.dmi'
+		icon = 'Icons/Pokemon Hearts Icons.dmi'
 		icon_state = "red_blue_striped_wall"
 		density = 1
 		opacity = 1
 
 	stone
 		name = "Stone Path"
-		icon = 'Pokemon Hearts Icons.dmi'
+		icon = 'Icons/Pokemon Hearts Icons.dmi'
 		icon_state = "stone"
 
 	wood
 		name = "Wooden Boards"
-		icon = 'Pokemon Hearts Icons.dmi'
+		icon = 'Icons/Pokemon Hearts Icons.dmi'
 		icon_state = "wood"
 
 /* // awaiting better icons...

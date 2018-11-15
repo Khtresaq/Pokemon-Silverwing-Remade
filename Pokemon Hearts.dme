@@ -6,10 +6,6 @@
 // END_INTERNALS
 // BEGIN_FILE_DIR
 #define FILE_DIR .
-#define FILE_DIR "Icons"
-#define FILE_DIR "Icons/Pokemon"
-#define FILE_DIR "Icons/Pokemon/RegionalGroups"
-#define FILE_DIR "Icons/Turfs"
 // END_FILE_DIR
 // BEGIN_PREFERENCES
 // END_PREFERENCES

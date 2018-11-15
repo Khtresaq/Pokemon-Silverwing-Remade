@@ -87,7 +87,7 @@ mob
 
 				var/obj/o = new /obj
 
-				o.icon = 'afk.dmi'
+				o.icon = 'Icons/afk.dmi'
 				o.icon_state = "afk"
 				o.layer = MOB_LAYER+1
 

@@ -1,5 +1,5 @@
 mob
-	icon = 'Eevee.dmi' //determines a mob's default icon
+	icon = 'Icons/Pokemon/Eevee.dmi' //determines a mob's default icon
 
 	var
 		muted = 0 //tells whether or not the person is muted (1 for muted, 0 for unmuted)

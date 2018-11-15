@@ -22,7 +22,7 @@ mob
 
 		Target(mob/m as mob)
 			src.target = m
-			var/image/i = image('target.dmi',m)
+			var/image/i = image('Icons/target.dmi',m)
 			src << i
 			src.targetting = 1
 

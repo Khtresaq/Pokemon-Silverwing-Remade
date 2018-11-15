@@ -1,6 +1,6 @@
 obj
 	strawberry_milkshake
-		icon = 'beer.dmi'
+		icon = 'Icons/beer.dmi'
 		icon_state = "sm"
 
 		verb
