@@ -1,0 +1,20 @@
+mob
+	Stat()
+		statpanel("Inventory")
+		stat("Inventory")
+		stat("---------")
+		stat(src.contents)
+
+		statpanel("Stats")
+		stat("Stats")
+		stat("-----")
+		stat("Level:",level)
+		stat("Attack:", atk)
+		stat("Defense:", def)
+		stat("Special Attack:", satk)
+		stat("Special Defense:", sdef)
+
+		if(src.admin)
+			statpanel("Debug")
+			for(var/v in src.vars)
+				stat("[v] = [vars[v]]")
