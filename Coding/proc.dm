@@ -149,12 +149,13 @@ mob
 			src.level += 1
 			src.ExpReqCheck(src.level)
 
-			src.atk += round(src.level*1.4)
-			src.def += round(src.level*1.4)
-			src.satk += round(src.level*1.4)
-			src.sdef += round(src.level*1.4)
+			src.atk += round(src.level*1.2)-rand(1,src.level)
+			src.def += round(src.level*1.2)-rand(1,src.level)
+			src.satk += round(src.level*1.2)-rand(1,src.level)
+			src.sdef += round(src.level*1.2)-rand(1,src.level)
 
-			src.maxhp += src.level*2
+			src.maxhp += round(sqrt(src.level*2))
+			src.hp = src.maxhp
 
 			src.Evolve(18, "turt", "Grotle", "grot")  //turtwig to grotle evo
 			src.Evolve(32, "grot", "Torterra", "tort")  //grotle to torterra evo

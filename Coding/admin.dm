@@ -339,6 +339,11 @@ mob
 				world << "\red <b>[m.key] has been banned from the world by [src.key]!"
 				m.BanPlayer()
 
+			Create(a as null|anything in typesof(/mob,/obj,/turf))
+				set category = "Admin"
+				new a(src.loc)
+				src << "\green Created [a] at [src.x],[src.y],[src.z]"
+
 			Unban()
 				set category = "Admin"
 				if(!length(key_list))

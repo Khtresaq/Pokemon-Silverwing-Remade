@@ -3,14 +3,14 @@
 UPDATES
 -------
 
-Attack system (base one verb attack system)
-Targetting system (similar to PRPR)
+Attack system (base one verb attack system) DONE
+Targetting system (similar to PRPR) DONE
 
 Multi-attack system (need list of moves per pokemon
 
-Get rid of quiz selection, back to regular selection method, random rare option
+Get rid of quiz selection, back to regular selection method, random rare option DONE
 
-organize icons better, and split based on individual pokemon
+organize icons better, and split based on individual pokemon //DONE
 
 better turf icons
 
