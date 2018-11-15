@@ -1,0 +1,33 @@
+// DM Environment file for Pokemon Hearts.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "Icons"
+#define FILE_DIR "Icons/Pokemon"
+#define FILE_DIR "Icons/Pokemon/RegionalGroups"
+#define FILE_DIR "Icons/Turfs"
+// END_FILE_DIR
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+// BEGIN_INCLUDE
+#include "Coding\admin.dm"
+#include "Coding\attack.dm"
+#include "Coding\ban.dm"
+#include "Coding\debug.dm"
+#include "Coding\Edit.dm"
+#include "Coding\login.dm"
+#include "Coding\obj.dm"
+#include "Coding\proc.dm"
+#include "Coding\save.dm"
+#include "Coding\stat.dm"
+#include "Coding\target.dm"
+#include "Coding\turf.dm"
+#include "Coding\var.dm"
+#include "Coding\verbs.dm"
+#include "Coding\world.dm"
+#include "Maps\map2.dmm"
+// END_INCLUDE
